@@ -1,0 +1,14 @@
+@import './base.css';
+@import './customizer.css';
+
+/* tiptap editor */
+.tiptap p.is-empty:first-child::before {
+  color: rgb(59, 59, 59);
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+.tiptap.ProseMirror-focused {
+  outline-offset: 5px;
+}

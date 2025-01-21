@@ -1,0 +1,51 @@
+:root {
+  /* 
+  use the first word as identifier of section's TYPE attribute to trigger customization 
+  --SECTIONTYPE-properties will always have the same pattern
+  */
+  --hero-bgcolor: #fff;
+  --hero-color: #111;
+  --hero-heading-color: var(--hero-color);
+  --hero-caption-color: var(--hero-color);
+  --hero-button-bgcolor: var(--hero-color);
+  --hero-button-color: var(--hero-bgcolor);
+
+  --generic-bgcolor: #fff;
+  --generic-color: #111;
+  --generic-heading-color: var(--generic-color);
+  --generic-caption-color: var(--generic-color);
+  --generic-button-bgcolor: var(--generic-color);
+  --generic-button-color: var(--generic-bgcolor);
+
+  --skills-bgcolor: #fff;
+  --skills-color: #111;
+  --skills-heading-color: var(--skills-color);
+  --skills-caption-color: var(--skills-color);
+
+  --experiences-bgcolor: #fff;
+  --experiences-color: #111;
+  --experiences-heading-color: var(--experiences-color);
+  --experiences-caption-color: var(--experiences-color);
+  --experiences-border-color: var(--experiences-color);
+
+  --projects-bgcolor: #fff;
+  --projects-color: #111;
+  --projects-heading-color: var(--projects-color);
+  --projects-caption-color: var(--projects-color);
+
+  --services-bgcolor: #fff;
+  --services-color: #111;
+  --services-heading-color: var(--services-color);
+  --services-caption-color: var(--services-color);
+  --services-icon-color: var(--services-color);
+
+  --clients-bgcolor: #fff;
+  --clients-color: #111;
+  --clients-heading-color: var(--clients-color);
+  --clients-caption-color: var(--clients-color);
+
+  --threecols-bgcolor: #fff;
+  --threecols-color: #111;
+  --threecols-heading-color: var(--threecols-color);
+  --threecols-caption-color: var(--threecols-color);
+}
